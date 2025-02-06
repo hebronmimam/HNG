@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Color Game</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="assets/css/stage-1.css">
+</head>
+<body>
+  <div class="game-container">
+    <!-- Game Instructions -->
+    <p class="game-instructions" data-testid="gameInstructions">
+      Guess the correct color!
+    </p>
+    
+    <!-- Color Display Box -->
+    <div class="color-box" data-testid="colorBox"></div>
+    
+    <!-- Color Options -->
+    <div class="options-container">
+      <!-- Color option buttons will be generated dynamically via JavaScript -->
+    </div>
+    
+    <!-- Game Status -->
+    <p class="game-status" data-testid="gameStatus">Make your guess</p>
+    
+    <!-- Score -->
+    <p class="score" data-testid="score">Score: 0</p>
+    
+    <!-- New Game Button -->
+    <button class="new-game-btn" data-testid="newGameButton">New Game</button>
+    
+    <!-- Highest Score Button -->
+    <button class="highest-score-btn" data-testid="showHighestScore">Show Highest Score</button>
+  </div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="assets/js/stage-1.js"></script>
+</body>
+</html>
